@@ -4,6 +4,13 @@ function Header() {
     return(
         <header style={headerStyle}>
             <h1>TodoList</h1>
+                
+            <image 
+            style = {{
+                alignSelf: 'left' }} 
+                source ={require("./images/logo.jpg")}
+            />
+           
         </header>
     )
 }
